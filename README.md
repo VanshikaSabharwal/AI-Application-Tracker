@@ -34,7 +34,7 @@ The application is structured as a monorepo using [Turborepo](https://turbo.buil
 
    ```sh
    git clone https://github.com/VanshikaSabharwal/AI-Application-Tracker.git
-   cd ai-application-tracker
+   cd AI-Application-Tracker
 
 2. **Install Dependencies**:
 
