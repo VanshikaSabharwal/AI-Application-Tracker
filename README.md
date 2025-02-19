@@ -43,6 +43,7 @@ The application is structured as a monorepo using [Turborepo](https://turbo.buil
     ```sh
     cd apps/frontend
     npm install
+    ```
 
 
     For the backend:
@@ -52,7 +53,7 @@ The application is structured as a monorepo using [Turborepo](https://turbo.buil
     python3 -m venv venv
     source venv/bin/activate 
     pip install -r requirements.txt
-
+    ```
 
 ### Usage
 
