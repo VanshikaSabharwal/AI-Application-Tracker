@@ -54,33 +54,20 @@ For the backend:
     pip install -r requirements.txt
 
 
- ### Usage
+### Usage
 
-    - **Dashboard**: View and manage your job applications and track their statuses.
-    - **Job Search**: Browse and filter job listings fetched from integrated platforms.
-    - **Application Materials**: Generate and download AI-crafted resumes and cover letters.
-    - **Notifications**: Receive email alerts for upcoming deadlines and interview schedules.
-
+- **Dashboard**: View and manage your job applications and track their statuses.
+- **Job Search**: Browse and filter job listings fetched from integrated platforms.
+- **Application Materials**: Generate and download AI-crafted resumes and cover letters.
+- **Notifications**: Receive email alerts for upcoming deadlines and interview schedules.
 
 ### Tasks
 
-      [] Create Figma designs for the dashboard, home page, chatbot interface, and other key components.
-
-
-      [] Implement a login page with Google authentication.
-
-      [] Develop a web scraping mechanism to gather internship and job data from various online sources.
-
-
-      [] Incorporate a chatbot to assist users with queries and provide personalized assistance.
-
-
-      [] Develop an "About You" page for users to input and manage their personal and professional details.
-
-      [] Enable users to view a list of opportunities tailored to their profiles and provide an option to apply to multiple positions simultaneously.
-
-
-      [] Create a comprehensive dashboard to monitor and manage the status of all applications.
-
-
-      [] Develop a Flutter-based cross-platform application to provide users with access on various devices.
+- [ ] Create Figma designs for the dashboard, home page, chatbot interface, and other key components.
+- [ ] Implement a login page with Google authentication.
+- [ ] Develop a web scraping mechanism to gather internship and job data from various online sources.
+- [ ] Incorporate a chatbot to assist users with queries and provide personalized assistance.
+- [ ] Develop an "About You" page for users to input and manage their personal and professional details.
+- [ ] Enable users to view a list of opportunities tailored to their profiles and provide an option to apply to multiple positions simultaneously.
+- [ ] Create a comprehensive dashboard to monitor and manage the status of all applications.
+- [ ] Develop a Flutter-based cross-platform application to provide users with access on various devices.
