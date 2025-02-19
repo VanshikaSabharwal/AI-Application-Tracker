@@ -45,8 +45,8 @@ The application is structured as a monorepo using [Turborepo](https://turbo.buil
     npm install
 
 
-
-For the backend:
+    For the backend:
+    
     ```sh
     cd apps/backend
     python3 -m venv venv
