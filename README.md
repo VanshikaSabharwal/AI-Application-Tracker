@@ -1,84 +1,84 @@
-# Turborepo starter
+# AI Application Tracker
 
-This Turborepo starter is maintained by the Turborepo core team.
+The AI Application Tracker is a tool designed to automate the job application process and make it simple. 
 
-## Using this example
+## Features
 
-Run the following command:
+- **Automated Job Data Collection**: Integrates with various job boards and company websites to fetch and update job listings automatically.
+- **Personalized Dashboard**: Provides users with an overview of their applications, upcoming deadlines, and relevant job suggestions.
+- **Application Status Tracking**: Monitors and updates the status of each application, from submission to interview stages.
+- **Deadline Alerts**: Sends notifications and reminders for application deadlines and interview schedules via email.
 
-```sh
-npx create-turbo@latest
-```
+## System Architecture
 
-## What's inside?
+The application is structured as a monorepo using [Turborepo](https://turbo.build/repo), facilitating efficient development and deployment. The architecture includes:
 
-This Turborepo includes the following packages/apps:
+- **Frontend**: Developed with [Next.js](https://nextjs.org/) for server-side rendering and a responsive user interface.
+- **Backend**: Built with Python frameworks such as [FastAPI](https://fastapi.tiangolo.com/) to handle server-side logic and API endpoints.
+- **Database**: Utilizes [PostgreSQL](https://www.postgresql.org/) managed with [Prisma ORM](https://www.prisma.io/) for robust data handling.
+- **AI Services**: Integrates with AI platforms like [OpenAI](https://openai.com/) for generating application documents and job matching.
+- **Email Notifications**: Employs [Nodemailer](https://nodemailer.com/about/) for sending email alerts and reminders.
 
-### Apps and Packages
+## Getting Started
 
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
-- `@repo/ui`: a stub React component library shared by both `web` and `docs` applications
-- `@repo/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
+### Prerequisites
 
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
+- [Node.js](https://nodejs.org/) (version 14 or above)
+- [Python](https://www.python.org/) (version 3.8 or above)
+- [PostgreSQL](https://www.postgresql.org/) database
+- [Turborepo CLI](https://turbo.build/repo/docs/getting-started)
 
-### Utilities
+### Installation
 
-This Turborepo has some additional tools already setup for you:
+1. **Clone the Repository**:
 
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
+   ```sh
+   git clone https://github.com/VanshikaSabharwal/AI-Application-Tracker.git
+   cd ai-application-tracker
 
-### Build
+2. **Install Dependencies**:
 
-To build all apps and packages, run the following command:
+    For the frontend:
 
-```
-cd my-turborepo
-pnpm build
-```
+    ```sh
+    cd apps/frontend
+    npm install
 
-### Develop
+    For the backend:
+    ```sh
+    cd apps/backend
+    python3 -m venv venv
+    source venv/bin/activate 
+    pip install -r requirements.txt
 
-To develop all apps and packages, run the following command:
 
-```
-cd my-turborepo
-pnpm dev
-```
+ ### Usage
 
-### Remote Caching
+    - **Dashboard**: View and manage your job applications and track their statuses.
+    - **Job Search**: Browse and filter job listings fetched from integrated platforms.
+    - **Application Materials**: Generate and download AI-crafted resumes and cover letters.
+    - **Notifications**: Receive email alerts for upcoming deadlines and interview schedules.
 
-> [!TIP]
-> Vercel Remote Cache is free for all plans. Get started today at [vercel.com](https://vercel.com/signup?/signup?utm_source=remote-cache-sdk&utm_campaign=free_remote_cache).
 
-Turborepo can use a technique known as [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
+### Tasks
 
-By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup?utm_source=turborepo-examples), then enter the following commands:
+      [] Create Figma designs for the dashboard, home page, chatbot interface, and other key components.
 
-```
-cd my-turborepo
-npx turbo login
-```
 
-This will authenticate the Turborepo CLI with your [Vercel account](https://vercel.com/docs/concepts/personal-accounts/overview).
+      [] Implement a login page with Google authentication.
 
-Next, you can link your Turborepo to your Remote Cache by running the following command from the root of your Turborepo:
+      [] Develop a web scraping mechanism to gather internship and job data from various online sources.
 
-```
-npx turbo link
-```
 
-## Useful Links
+      [] Incorporate a chatbot to assist users with queries and provide personalized assistance.
 
-Learn more about the power of Turborepo:
 
-- [Tasks](https://turbo.build/repo/docs/core-concepts/monorepos/running-tasks)
-- [Caching](https://turbo.build/repo/docs/core-concepts/caching)
-- [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching)
-- [Filtering](https://turbo.build/repo/docs/core-concepts/monorepos/filtering)
-- [Configuration Options](https://turbo.build/repo/docs/reference/configuration)
-- [CLI Usage](https://turbo.build/repo/docs/reference/command-line-reference)
+      [] Develop an "About You" page for users to input and manage their personal and professional details.
+
+      [] Enable users to view a list of opportunities tailored to their profiles and provide an option to apply to multiple positions simultaneously.
+
+
+      [] Create a comprehensive dashboard to monitor and manage the status of all applications.
+
+
+      [] Develop a Flutter-based cross-platform application to provide users with access on various devices.
